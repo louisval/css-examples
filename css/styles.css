@@ -1,0 +1,88 @@
+body {
+    /*background-color: firebrick;*/
+    /*background-color: #ff0000;*/
+    background-color: rgb(255, 0, 0);
+    /*color: white;*/
+    /*color: rgba(255, 255, 255, 1); *//* 1 == opaque */
+    /*color: rgba(255, 255, 255, 0); *//* 0 == transparent */
+    /*color: rgba(255, 255, 255, 0.5); *//* semi-transparent */
+    /*color: hsla(20, 100%, 50%, 0.8);*/
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+h1 {
+    border: 1px solid chartreuse;
+    width: 500px;
+    font-size: 50px;
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+p {
+    line-height: 1.5;
+}
+ul.palette {
+    list-style-type: none;
+}
+
+ul.palette li {
+    height: 20px;
+    margin: 0;
+}
+
+.un {
+    background-color: hsl(20, 100%, 80%);
+}
+
+.deux {
+    background-color: hsl(20, 100%, 75%);
+}
+
+.trois {
+
+    background-color: hsl(20, 100%, 70%);
+}
+
+.quatre {
+
+    background-color: hsl(20, 100%, 65%);
+}
+
+.huit {
+
+    background-color: hsl(20, 100%, 60%);
+}
+
+#tailles-relatives {
+    font-size: 20px;
+}
+#tailles-relatives h2 {
+    font-size: 2em;
+}
+#tailles-relatives h3 {
+    font-size: 1.5em;
+}
+#tailles-relatives h4 {
+    font-size: 1.2em;
+}
+
+.gauche {
+    text-align: left;
+}
+.centre {
+    text-align: center;
+}
+.droite {
+    text-align: right;
+}
+.justifie {
+    text-align: justify;
+}
+.texte-barre {
+    text-decoration: line-through;
+}
+
+#bienvenue {
+    text-transform: uppercase;
+}
